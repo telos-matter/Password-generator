@@ -76,6 +76,8 @@ public class Interface {
 		pane.add(TEXT_FIELD, BorderLayout.CENTER);
 		
 		frame.setVisible(true);
+
+		generatePassword();
 	}
 
 	private static JToggleButton createJToggleButton (String label) {
